@@ -1,0 +1,9 @@
+<input #myInput type="text">
+<button (click)="btnClick(myInput.value)">Click Me</button>
+
+<br><br>
+
+<input #text1 [(ngModel)]="text2.value" type="text"> 
+<input #text2 [(ngModel)]="text1.value" type="text">
+
+<br><br>
